@@ -1,3 +1,7 @@
+![photo_2024-01-08_12-48-00](https://github.com/GreaterBerg/ZLO/assets/125074932/75b18c4f-c324-4915-b1d9-4418b47308c1)
+
+
+
 ИМПЕРИЯ ЗЛА В АРГ (фо ма хоумис броуски): ЗЛО.
 
 1 - навбар:
@@ -50,6 +54,7 @@
 
         подборка футера
             делал лил броускич гришаня иванов со святого арг 
-            ![photo_2024-01-08_12-49-55](https://github.com/GreaterBerg/ZLO/assets/125074932/ea110683-2ce3-45e5-af0b-0b1d6f629ccf)
-
             
+
+![photo_2024-02-26_22-13-14](https://github.com/GreaterBerg/ZLO/assets/125074932/a2a0351f-ea1d-4f1f-a821-abbc620af157)
+
