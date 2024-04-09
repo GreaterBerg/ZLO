@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.main__container{
+    display: flex;
+    justify-content: center;
+}
+
+.first__container{
+    margin: 0 4% 0 0;
+    
+}
+
+.second__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second__container:hover{
+    h1{
+        font-size: 40px;
+        /*color*/
+    }
+    .p__desc{
+        font-size: 20px;
+        margin: 6px;
+    }
+    .btn{
+        font-size: 18px;
+        width: 16rem;
+        height: 3.4rem;
+    }
+}
+
+.container__desc{
+    padding: 1.5rem;
+    border-radius: 1em;
+    max-width: 500px;
+}
+
+h1{
+    text-align: center;
+    /*color: #222831;*/
+    color: #fff;
+    font-size: 36px;
+    transition: all 0.4s ease 0s;
+}
+
+.p__desc{
+    font-size: 18px;
+    /*color: #393E46;*/
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    transition: all .4s ease 0s;
+}
+
+.btn{
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: .4rem;
+    width: 15rem;
+    height: 3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F3F8FF;
+    /*background-color: #7E30E1;*/
+    background-color: #9147ff;
+    transition: all .4s ease 0s;
+}
+.btn:hover{
+    background-color: rgba(126, 48, 225, .7);
+    font-size: 15px;
+}
+
+.formulas__desc{
+    font-size: 18px;
+    color: #6e6e6e;
+    /*color: #393E46;*/
+    text-align: center;
+}
+
+/* адаптив */
+
+@media (max-width:1025px){
+    .first__container{
+        margin: 0 0 0 0;
+        position: absolute;
+        z-index: -1;
+        top: -1.5rem;
+    }
+    .second__container{
+        margin: 4rem 0 0 0;
+        align-items: center;
+    }
+    h1{
+        color: #fff;
+        text-shadow: #9147ff 1px 0 5px;
+    }
+    .p__desc{
+        text-shadow: #9147ff 1px 0 5px;
+    }
+    .btn{
+        background-color: #fff;
+        color: #9147ff;
+    }
+    .btn:hover{
+        background-color: #9147ff;
+        color: #fff;
+    }
+    .formulas__desc{
+        color: #fff;
+        text-shadow: #9147ff 1px 0 5px;
+        display: none;
+    }
+    /*h1{
+        font-size: 30px;
+    }
+    .second__container:hover{
+        h1{
+            font-size: 35px;
+        }
+        .p__desc{
+            font-size: 16px;
+            margin: 6px;
+        }
+        .btn{
+            font-size: 18px;
+            width: 14rem;
+            height: 3.2rem;
+        }
+    }
+    .p__desc{
+        width: 310px;
+        font-weight: 600;
+        font-size: 13px;
+        padding: 10px;
+    }
+    .btn{
+        font-size: 16px;
+        border-radius: .4rem;
+        width: 13rem;
+        height: 3rem;
+    }
+    .btn:hover{
+        font-size: 15px;
+    }
+    .formulas__desc{
+        font-size: 15px;
+    }*/
+    
+}
+
+@media (max-width:600px){
+    .first__container{
+        display: none;
+    }
+    .second__container{
+        margin: 4rem 0 0 0;
+        align-items: center;
+    }
+    h1{
+        color: #9147ff;
+        text-shadow: none;
+    }
+    .p__desc{
+        text-shadow: none;
+    }
+    .btn{
+        background-color: #9147ff;
+        color: #fff;
+    }
+    .btn:hover{
+        background-color: #fff;
+        color: #9147ff;
+    }
+    .formulas__desc{
+        color: #6e6e6e;
+        text-shadow:  none;
+        display:block;
+    }
+
+    .second__container:hover{
+        h1{
+            font-size: 35px;
+        }
+        .p__desc{
+            font-size: 16px;
+            margin: 6px;
+        }
+        .btn{
+            font-size: 18px;
+            width: 14rem;
+            height: 3.2rem;
+        }
+    }
+    .p__desc{
+        width: 310px;
+        font-weight: 600;
+        font-size: 13px;
+        padding: 10px;
+    }
+    .btn{
+        font-size: 16px;
+        border-radius: .4rem;
+        width: 13rem;
+        height: 3rem;
+    }
+    .btn:hover{
+        font-size: 15px;
+    }
+    .formulas__desc{
+        font-size: 15px;
+    }
+}
